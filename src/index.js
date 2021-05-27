@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Counter from "./components/Counter";
+import Crud from "./components/CRUD";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
+    <Crud />
   </React.StrictMode>,
   document.getElementById("root")
 );
